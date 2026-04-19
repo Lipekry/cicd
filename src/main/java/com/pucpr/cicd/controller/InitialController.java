@@ -8,7 +8,7 @@ public class InitialController {
 
     @GetMapping("/")
     public String init() {
-        return "Hello World";
+        return "Hello World CI";
     }
 
 }
