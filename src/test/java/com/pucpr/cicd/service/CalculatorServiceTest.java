@@ -23,7 +23,7 @@ class CalculatorServiceTest {
     @Test
     void deveSubtrairCorretamente() {
         double resultado = calculatorService.subtrair(10, 4);
-        assertEquals(6, resultado);
+        assertEquals(5, resultado);
     }
 
     @Test
